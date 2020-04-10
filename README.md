@@ -1,7 +1,7 @@
 # PatchUpdate
 增量更新apk,基于bsdiff开源库，通过当前apk以及升级后的apk生成diff文件通过合并diff以及老apk升级成新apk
 
-###Module介绍
+### Module介绍
 
 1.patchModule中包含jni源代码以及生成的armeabi,armeabi-v7a,arm64-v8a对应的so可自行取用
 
