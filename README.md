@@ -9,6 +9,16 @@
 
 3.可在jni基础上自行增加修改内容通过mk文件自行ndk-build执行自行生成so
 
+4.app目录下包含生成的aar文件，可直接取用，注意该aar包含以上3个平台的so,注意过滤使用
+
+```groovy
+defaultConfig {
+    ndk {
+        abiFilters "armeabi-v7a"
+    }
+}
+```
+
 ### bsdiff网址
 
 http://www.daemonology.net/bsdiff/
